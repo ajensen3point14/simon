@@ -92,7 +92,7 @@ class Game {
   }
 
   getPlayerName() {
-    return localStorage.getItem('userName') ?? 'Mystery player';
+    return localStorage.getItem('userName') ?? 'Mystery player (click "Home" to log in)';
   }
 
   async playSequence() {
